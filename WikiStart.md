@@ -1,6 +1,7 @@
 /BiVeS Framework 
 =================
-[[Image(source:doc/dependency-graph.png, align=right, 380px, border=2, title="dependency graph for the /BiVeS project")]]
+
+<img src="https://github.com/SemsProject/BiVeS/raw/master/doc/dependency-graph.png" width="380px" title="dependency graph for the /BiVeS project" />
 
 The [BiVeS Framework](bives:wiki) is probably the resource you want to use in your project. It is executable from command line (it contains a [ Main](/src/main/java/de/unirostock/sems/bives/Main.java)) and combines all /BiVeS modules (see right hand side dependency graph):
  * [BiVeS Core](http://sems.uni-rostock.de/trac/bives-core/wiki/BiVeS-Core)
