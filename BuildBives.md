@@ -1,4 +1,4 @@
-Build /BiVeS 
+Build BiVeS 
 =============
 
 When you've cloned the source code:
