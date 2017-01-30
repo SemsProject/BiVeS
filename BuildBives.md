@@ -44,9 +44,9 @@ Build with Ant
 
 [Ant](https://ant.apache.org/) is an Apache tool for automating software build processes. There is a [source:build.xml build.xml] file included in the source code that tells ant what to do. Since ant is not able to resolve the dependencies you need to create a directory ```lib``` containing the following libraries:
 
-* [bives-core:wiki /BiVeS-Core] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-core/wiki//BuildBivesCore)
-* [bives-cellml:wiki /BiVeS-CellML] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-cellml/wiki//BuildBivesCellml)
-* [bives-sbml:wiki /BiVeS-SBML] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-sbml/wiki//BuildBivesSbml)
+* [BiVeS-Core](http://sems.uni-rostock.de/trac/bives-core/wiki] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-core/wiki/BuildBivesCore)
+* [BiVeS-CellML](http://sems.uni-rostock.de/trac/bives-cellml/wiki] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-cellml/wiki/BuildBivesCellml)
+* [BiVeS-SBML](http://sems.uni-rostock.de/trac/bives-sbml/wiki] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-sbml/wiki/BuildBivesSbml)
 
 We defined multiple targets in the ```build.xml`. They can be displayed by calling `ant -p```:
 
