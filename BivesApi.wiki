@@ -1,0 +1,9 @@
+= BiVeS API =
+
+The BiVeS API provides some easy way to compare two computational models.
+
+The base API is defined in the bives-core:wiki:API, which is extended by
+* the bives-sbml:wiki:SBML-API to handle SBML models
+* the bives-cellml:wiki:CellML-API to handle CellML models
+
+To get a better understanding of the usage of BiVeS within Java projects you might also want to have a look at https://sems.uni-rostock.de/trac/bives/browser/src/main/java/de/unirostock/sems/bives/Executer.java wich makes use of these APIs.
