@@ -2,15 +2,14 @@ Build /BiVeS
 =============
 When you've cloned the source code:
 
-```
-#!sh
+```sh
 git clone git://sems.uni-rostock.de/bives
 ```
 
 There are two supported options to build this project:
 
-* [Build with Maven](#//BuildwithMaven)
-* [Build with Ant](#//BuildwithAnt)
+* [Build with Maven](#BuildwithMaven)
+* [Build with Ant](#BuildwithAnt)
 
 
 
@@ -18,8 +17,7 @@ Build with Maven
 -----------------
 [Maven](https://maven.apache.org/) is a build automation tool. We ship a [source:pom.xml pom.xml] together with the sources which tells maven about versions and dependencies. Thus, maven is able to resolve everything on its own and, in order to create the library, all you need to call is ```mvn package```:
 
-```
-#!sh
+```sh
 usr@srv $ mvn package
 
 -------------------------------------------------------
@@ -50,8 +48,7 @@ Build with Ant
 
 We defined multiple targets in the ```build.xml`. They can be displayed by calling `ant -p```:
 
-```
-#!sh
+```sh
 usr@srv $ ant -p
 Buildfile: /path/to/BiVeS/build.xml
 
@@ -73,8 +70,7 @@ Default target: dist
 
 For example, to create the ```jar` library just run `ant dist```:
 
-```
-#!sh
+```sh
 usr@srv $ ant dist
 Buildfile: /path/to/BiVeS/build.xml
 

@@ -1,6 +1,6 @@
-Use /BiVeS from Commandline 
+Use BiVeS from Commandline 
 ============================
-/BiVeS contains a Main, so you are free to use it from command line. If you do not pass any arguments you'll see a help page such as (as of version 1.3)
+BiVeS contains a Main, so you are free to use it from command line. If you do not pass any arguments you'll see a help page such as (as of version 1.3)
 
 ```
 usr@srv $ java -jar /path/to/BiVeS-fat.jar
