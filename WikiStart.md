@@ -22,13 +22,16 @@ Include the BiVeS Framework via Maven: ([find latest version id](http://mvn.sems
     <version>$VERSION</version>
 </dependency>
 ```
+
 Usage 
 ------
+
  * [BiVeS on Commandline](BivesOnCommandLine)
  * [BiVeS Api](BivesApi)
  * [Tell us](TellUs) if you're going to use BiVeS
 
 Build 
 ------
+
  * learn how to [build BiVeS](/BuildBives)
 
