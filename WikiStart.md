@@ -1,4 +1,4 @@
-/BiVeS Framework 
+BiVeS Framework 
 =================
 
 <img src="https://github.com/SemsProject/BiVeS/raw/master/doc/dependency-graph.png" width="380px" title="dependency graph for the /BiVeS project" />
