@@ -1,5 +1,6 @@
 Build /BiVeS 
 =============
+
 When you've cloned the source code:
 
 ```sh
@@ -8,13 +9,12 @@ git clone git://sems.uni-rostock.de/bives
 
 There are two supported options to build this project:
 
-* [Build with Maven](#BuildwithMaven)
-* [Build with Ant](#BuildwithAnt)
-
-
+* [Build with Maven](#build-with-maven)
+* [Build with Ant](#build-with-ant)
 
 Build with Maven 
 -----------------
+
 [Maven](https://maven.apache.org/) is a build automation tool. We ship a [source:pom.xml pom.xml] together with the sources which tells maven about versions and dependencies. Thus, maven is able to resolve everything on its own and, in order to create the library, all you need to call is ```mvn package```:
 
 ```sh
@@ -41,7 +41,9 @@ That done, you'll find the binaries in the ```target``` directory.
 
 Build with Ant 
 ---------------
+
 [Ant](https://ant.apache.org/) is an Apache tool for automating software build processes. There is a [source:build.xml build.xml] file included in the source code that tells ant what to do. Since ant is not able to resolve the dependencies you need to create a directory ```lib``` containing the following libraries:
+
 * [bives-core:wiki /BiVeS-Core] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-core/wiki//BuildBivesCore)
 * [bives-cellml:wiki /BiVeS-CellML] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-cellml/wiki//BuildBivesCellml)
 * [bives-sbml:wiki /BiVeS-SBML] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-sbml/wiki//BuildBivesSbml)
@@ -69,6 +71,7 @@ Default target: dist
 * ```dist` bundles all compiled binaries into a `jar``` package
 
 For example, to create the ```jar` library just run `ant dist```:
+
 
 ```sh
 usr@srv $ ant dist

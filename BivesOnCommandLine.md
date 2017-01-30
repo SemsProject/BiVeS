@@ -1,5 +1,6 @@
 Use BiVeS from Commandline 
 ============================
+
 BiVeS contains a Main, so you are free to use it from command line. If you do not pass any arguments you'll see a help page such as (as of version 1.3)
 
 ```
@@ -52,7 +53,9 @@ OPTIONS:
 
 Examples 
 ---------
+
 ### Flatten a CellML file 
-```
+
+```sh
 java -jar /path/to/BiVeS-fat.jar --CellML --singleFlatten http://models.cellml.org/exposure/29a0ec2468a49a64a123f927083260f0/CompletedImportExample.cellml
 ```
