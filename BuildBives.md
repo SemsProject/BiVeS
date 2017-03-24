@@ -4,7 +4,7 @@ Build BiVeS
 When you've cloned the source code:
 
 ```sh
-git clone git://sems.uni-rostock.de/bives
+git clone git@github.com:SemsProject/BiVeS.git
 ```
 
 There are two supported options to build this project:
@@ -15,7 +15,7 @@ There are two supported options to build this project:
 Build with Maven 
 -----------------
 
-[Maven](https://maven.apache.org/) is a build automation tool. We ship a [source:pom.xml pom.xml] together with the sources which tells maven about versions and dependencies. Thus, maven is able to resolve everything on its own and, in order to create the library, all you need to call is ```mvn package```:
+[Maven](https://maven.apache.org/) is a build automation tool. We ship a [source:pom.xml pom.xml] together with the sources which tells maven about versions and dependencies. Thus, maven is able to resolve everything on its own and, in order to create the library, all you need to call is `mvn package`:
 
 ```sh
 usr@srv $ mvn package
@@ -37,18 +37,18 @@ Results :
 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 ```
 
-That done, you'll find the binaries in the ```target``` directory.
+That done, you'll find the binaries in the `target` directory.
 
 Build with Ant 
 ---------------
 
-[Ant](https://ant.apache.org/) is an Apache tool for automating software build processes. There is a [source:build.xml build.xml] file included in the source code that tells ant what to do. Since ant is not able to resolve the dependencies you need to create a directory ```lib``` containing the following libraries:
+[Ant](https://ant.apache.org/) is an Apache tool for automating software build processes. There is a [source:build.xml build.xml] file included in the source code that tells ant what to do. Since ant is not able to resolve the dependencies you need to create a directory `lib` containing the following libraries:
 
 * [BiVeS-Core](http://sems.uni-rostock.de/trac/bives-core/wiki] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-core/wiki/BuildBivesCore)
 * [BiVeS-CellML](http://sems.uni-rostock.de/trac/bives-cellml/wiki] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-cellml/wiki/BuildBivesCellml)
 * [BiVeS-SBML](http://sems.uni-rostock.de/trac/bives-sbml/wiki] (download latest binary from http://bin.sems.uni-rostock.de or see http://sems.uni-rostock.de/trac/bives-sbml/wiki/BuildBivesSbml)
 
-We defined multiple targets in the ```build.xml`. They can be displayed by calling `ant -p```:
+We defined multiple targets in the `build.xml`. They can be displayed by calling `ant -p`:
 
 ```sh
 usr@srv $ ant -p
@@ -66,11 +66,11 @@ Main targets:
 Default target: dist
 ```
 
-* ```clean up``` will delete all compiled files and produced libraries
-* ```compile``` compiles the source code
-* ```dist` bundles all compiled binaries into a `jar``` package
+* `clean up` will delete all compiled files and produced libraries
+* `compile` compiles the source code
+* `dist` bundles all compiled binaries into a `jar` package
 
-For example, to create the ```jar` library just run `ant dist```:
+For example, to create the `jar` library just run `ant dist`:
 
 
 ```sh
