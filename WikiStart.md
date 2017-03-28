@@ -29,7 +29,7 @@ Usage
 
  * [BiVeS on Commandline](BivesOnCommandLine)
  * [BiVeS Api](BivesApi)
- * [Tell us](TellUs) if you're going to use BiVeS
+ * [Tell us](https://semsproject.github.io/contact) if you're going to use BiVeS
 
 Build 
 ------
