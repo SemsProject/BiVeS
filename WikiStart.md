@@ -5,9 +5,9 @@ BiVeS Framework
 
 The [BiVeS Framework](http://sems.uni-rostock.de/trac/bives/wiki) is probably the resource you want to use in your project. It is executable from command line (it contains a [ Main](/src/main/java/de/unirostock/sems/bives/Main.java)) and combines all /BiVeS modules (see right hand side dependency graph):
 
- * [BiVeS Core](http://sems.uni-rostock.de/trac/bives-core/wiki/BiVeS-Core)
- * [BiVeS CellML](http://sems.uni-rostock.de/trac/bives-cellml/wiki/BiVeS-CellML)
- * [BiVeS SBML](http://sems.uni-rostock.de/trac/bives-sbml/wiki/BiVeS-SBML)
+ * [BiVeS Core](http://sems.uni-rostock.de/trac/bives-core/wiki)
+ * [BiVeS CellML](http://sems.uni-rostock.de/trac/bives-cellml/wiki)
+ * [BiVeS SBML](http://sems.uni-rostock.de/trac/bives-sbml/wiki)
  * see the [source code](http://github.com/SemsProject/bives)
 
 In addition, we provide a [web service](http://sems.uni-rostock.de/trac/bivesws/wiki) which uses BiVeS to provide all functionalities through JSON calls, and a [web service client library](http://sems.uni-rostock.de/trac/bivesws-client/wiki) which is able to communicate with the web service.
