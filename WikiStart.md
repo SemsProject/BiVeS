@@ -14,11 +14,11 @@ In addition, we provide a [web service](http://sems.uni-rostock.de/trac/bivesws/
 
 All these modules utilize the [xmlutils](http://sems.uni-rostock.de/trac/xmlutils/wiki) project, which provides advanced features for handling XML trees.
 
-Include the BiVeS Framework via Maven: ([find latest version id](http://mvn.sems.uni-rostock.de/releases/de/unirostock/sems/BiVeS/), import the [SEMS Maven repository](https://sems.uni-rostock.de/2013/10/maven-repository/))
+Include the BiVeS Framework via Maven: ([see all versions at Maven Central](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22de.uni-rostock.sbi%22%20AND%20a%3A%22BiVeS%22))
 
 ```xml
 <dependency>
-    <groupId>de.unirostock.sems</groupId>
+    <groupId>de.uni-rostock.sbi</groupId>
     <artifactId>BiVeS</artifactId>
     <version>$VERSION</version>
 </dependency>
