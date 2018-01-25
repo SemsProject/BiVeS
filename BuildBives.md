@@ -4,7 +4,7 @@ Build BiVeS
 When you've cloned the source code:
 
 ```sh
-git clone git@github.com:SemsProject/BiVeS.git
+git clone https://github.com/SemsProject/BiVeS
 ```
 
 There are two supported options to build this project:
@@ -80,11 +80,11 @@ Buildfile: /path/to/BiVeS/build.xml
 init:
 
 compile:
-    [javac] Compiling 3 source files to /home/martin/unisonSyncPrivate/education/dev/BiVeS/build
+    [javac] Compiling 3 source files to .../BiVeS/build
 
 dist:
-      [jar] Building jar: /home/martin/unisonSyncPrivate/education/dev/BiVeS/dist/BiVeS-1.2.7.jar
-      [jar] Building jar: /home/martin/unisonSyncPrivate/education/dev/BiVeS/dist/BiVeS-1.2.7-fat.jar
+      [jar] Building jar: .../BiVeS/dist/BiVeS-1.2.7.jar
+      [jar] Building jar: .../BiVeS/dist/BiVeS-1.2.7-fat.jar
 
 BUILD SUCCESSFUL
 Total time: 7 seconds
